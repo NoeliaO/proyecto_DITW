@@ -30,9 +30,11 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/assets/materialize-src/sass/materialize.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/materialize-src/js/bin/materialize.min.js"
+            ]
           },
           "configurations": {
             "production": {
