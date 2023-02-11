@@ -1,17 +1,21 @@
 <nav>
   <div class="center-align">
-    <a href="#" data-target="mobile-demo" class="waves-effect waves-light btn deep-orange accent-3"><span class="material-icons">menu</span></a>
+    <a href="#" data-target="dropdown1" class="waves-effect waves-light dropdown-trigger btn deep-orange accent-3"><span
+        class="material-icons">menu</span></a>
   </div>
   <h1>Noelia Otazo Rojo</h1>
-  <ul class="sidenav" id="mobile-demo">
-    <li><a href="sass.html">Sass</a></li>
-    <li><a href="badges.html">Components</a></li>
-    <li><a href="collapsible.html">Javascript</a></li>
-    <li><a href="mobile.html">Mobile</a></li>
+  <!-- Dropdown Structure -->
+  <ul id='dropdown1' class='dropdown-content'>
+    <li><a routerLink="home"><i class="material-icons">home</i>Home</a></li>
+    <li class="divider" tabindex="-1"></li>
+    <li><a routerLink="experience"><i class="material-icons">view_module</i>Work experience</a></li>
+    <li><a routerLink="studies"><i class="material-icons">cloud</i>Studies</a></li>
+
+
   </ul>
 </nav>
-<hr>
 <div>
-  <img class="circle foto" src="../../assets/multimedia/imagenes/noelia_foto_carnet_grande.jpg">
+  <hr>
+  <img class="circle" src="../../assets/multimedia/imagenes/noelia_foto_carnet_grande.jpg">
 </div>
 
